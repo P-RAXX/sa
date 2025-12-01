@@ -1,0 +1,81 @@
+:root {
+  --color-primary:#2764ea;
+  --color-yellow:#c5ea27;
+  --color-white: #fff;
+  --color-gray: #dfdfdf;
+  --color-black: #000;
+
+  --color-success: #01bd78;
+  --color-error: #d40019;
+
+  --bg-color: var(--color-gray);
+  --border-color: var(--color-primary);
+  --background-color: var(--color-yellow);
+  --result-bg-color: var(--color-primary);
+  --primary-color: var(--color-primary);
+
+  --color-primary-hover: #3a1fb8;
+  --color-primary-active: #2e1890;
+
+  --color-secondary: #2764ea;
+  --color-secondary-hover: #1f4fb8;
+  --color-secondary-active: #183e90;
+
+  --color-gray-100: #f8f8f8;
+  --color-gray-200: #e8e8e8;
+  --color-gray-300: #d8d8d8;
+
+  --color-border: #cccccc;
+  --color-border-focus: #4c27ea;
+
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+
+  --transition-slow: 0.3s ease;
+}
+
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+a {
+  width: fit-content;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  margin: 0;
+}
+
+p + p {
+  margin: 12px 0;
+}
+
+img {
+  display: flex;
+  max-width: 100%;
+  height: auto;
+  pointer-events: none;
+}
