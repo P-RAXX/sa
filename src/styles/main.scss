@@ -1,16 +1,13 @@
 :root {
-  --color-primary:#2764ea;
-  --color-yellow:#c5ea27;
+  --color-primary: #006cbb;
   --color-white: #fff;
   --color-gray: #dfdfdf;
   --color-black: #000;
-
   --color-success: #01bd78;
   --color-error: #d40019;
 
   --bg-color: var(--color-gray);
   --border-color: var(--color-primary);
-  --background-color: var(--color-yellow);
   --result-bg-color: var(--color-primary);
   --primary-color: var(--color-primary);
 
@@ -42,7 +39,28 @@
   --transition-slow: 0.3s ease;
 }
 
+* {
+  box-sizing: border-box;
 
+  &::selection {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+  }
+}
+
+@font-face {
+  font-family: 'base';
+  font-weight: 400;
+  src: url('/fonts/400.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'base';
+  font-weight: 700;
+  src: url('/fonts/700.woff2') format('woff2');
+  font-display: swap;
+}
 
 body {
   padding: 0;

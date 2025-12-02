@@ -1,6 +1,6 @@
 {
-  "name": "sa",
-  "description": "SA",
+  "name": "calculator",
+  "description": "Calculator",
   "version": "0.0.0",
   "type": "module",
   "private": false,
